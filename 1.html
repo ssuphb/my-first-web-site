@@ -1,6 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        div{
+            background-color: grey;
+        }
+        body{
+            position: static;
+            width: 50%;
+            background-color: grey;
+        }
+        h1{
+            background-color: grey;
+            height: 50px;
+            /*  width: 200px; 사이즈가 줄은 것 같이 보여도 한 블록을 차지하는건 이전과 동일하다. */
+            margin: 0px;
+            padding: 0px;
+            /* 바디에 마진이 존재한다. */
+        }
+        p{
+            background-color: grey;
+            border-color: grey;
+            border-width: 10px; /* 개발자도구의 border과 동일하다. 마진은 위랑 아래랑 그 갭 */
+            border-style: solid;
+            margin: 0px;
+        }
+        a {
+            color:lightgoldenrodyellow;
+            text-decoration: none;
+            background-color: grey;
+        }
+    </style>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZ7FDTYT3H"></script>
 <script>
@@ -14,24 +44,39 @@
     <meta charset="utf-8">
 </head>
 <body>
-    <h1><a href="index.html">Developer</a></h1>
-    <ol>
-        <li><a href="1.html">BaekJoon Series</a></li>
-        <li><a href="2.html">Java Study</a></li>
-        <li><a href="3.html">Web Making</a></li>
-        <li><a href="4.html">SSUPHB</a></li>
-    </ol>
-    <h2><a href="https://www.acmicpc.net/" target="_blank" title="BaekJoon Site">BaekJoon Series</a></h2>
-    <p>
-        이곳에는 지금까지 풀었던 백준 시리즈와 앞으로 풀어나갈 예정인 백준 시리즈를 올릴 예정입니다. 보기에 이상한 코드들은 가감없이 조언해주시고, 
-        "굳이 저렇게 풀어?"라는 생각이 들 정도로 풀이 방식이 이상하면 더 좋은 길을 조언해주시면 감사하겠습니다.
-    </p>
+    <div style="position: relative; left:40%;">
+        <h1><a href="index.html">Developer</a></h1>
+    </div>
+
+    <div style="position: relative; left:40%;">
+        <ol style="color:lightgoldenrodyellow;">
+            <li style="color:yellow;"><a href="1.html" style="color:yellow;text-decoration: underline;" >BaekJoon Series</a></li>
+            <li><a href="2.html">Java Study</a></li>
+            <li><a href="3.html">Web Making</a></li>
+            <li><a href="4.html">SSUPHB</a></li>
+        </ol>
+    </div>
+    
+    <div style="position: relative; left:50%;">
+        <h2><a href="https://www.acmicpc.net/" target="_blank" title="BaekJoon Site" style="color:yellow;text-decoration: underline;">BaekJoon Series</a></h2>
+    </div>
+
+    <div style="position: relative; left:50%;">
+        <p>
+            이곳에는 지금까지 풀었던 백준 시리즈와 앞으로 풀어나갈 예정인 백준 시리즈를 올릴 예정입니다. 보기에 이상한 코드들은 가감없이 조언해주시고, 
+            "굳이 저렇게 풀어?"라는 생각이 들 정도로 풀이 방식이 이상하면 더 좋은 길을 조언해주시면 감사하겠습니다.
+        </p>
+    </div>
+
     <P>
         
     </P>
-    <p><img src="code img.jpg" width = 50%></p>
+
+    <p style="position: relative; left:50%;"><img src="code img.jpg" width = 100%></p>
+
+
     <p>
-        <div id="disqus_thread"></div>
+        <div style="position: relative; left:50%;" id="disqus_thread"></div>
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
