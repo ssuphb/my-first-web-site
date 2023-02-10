@@ -6,17 +6,21 @@
             background-color: grey;
         }
         body{
-            position: static;
+            margin: 0 auto;
             width: 50%;
             background-color: grey;
         }
         h1{
             background-color: grey;
-            height: 50px;
             /*  width: 200px; 사이즈가 줄은 것 같이 보여도 한 블록을 차지하는건 이전과 동일하다. */
             margin: 0px;
-            padding: 0px;
+            padding: 5px; 
             /* 바디에 마진이 존재한다. */
+        }
+        ol{
+            margin: 3px;
+            border-top: 3px solid black;
+            border-bottom: 3px solid black;
         }
         p{
             background-color: grey;
@@ -45,11 +49,11 @@
 </head>
 
 <body>
-    <div style="position: relative; left:40%;">
+    <div>
         <h1 style="font-size: 65px;"><a href="index.html">Developer</a></h1>
     </div>
 
-    <div style="position: relative; left:40%;">
+    <div>
         <ol style="color:lightgoldenrodyellow;">
             <li><a href="1.html">BaekJoon Series</a></li>
             <li style="color:yellow;"><a href="2.html"  style="color:yellow;text-decoration: underline;" >Java Study</a></li>
@@ -58,11 +62,11 @@
         </ol>
     </div>
     
-    <div style="position: relative; left:50%;">
+    <div>
         <h2><a href="https://namu.wiki/w/Java" target="_blank" title="Java from namuwiki" style="color:yellow;text-decoration: underline;" >Java Study</a></h2>
     </div>
 
-    <div style="position: relative; left:50%; color:lightgoldenrodyellow;">
+    <div style="color:lightgoldenrodyellow; font-size: large;">
         <p>
             이곳은 앞으로 배울 Java에 관련된 내용을 올릴 예정입니다. 기본적인 이론부터 공부를 하면서 느낀 제 생각까지 올릴 것이니. 내용이 불편하시거나 공부 방향이 이상하다고
             생각되시면 가감없이 조언해주시면 감사하겠습니다.
@@ -73,12 +77,12 @@
         
     </P>
 
-    <p style="position: relative; left:50%;">
+    <p>
         <img src="front-end.jpg" width = 100%>
     </p>
 
     <p>
-        <div  style="position: relative; left:50%;" id="disqus_thread"></div>
+        <div id="disqus_thread"></div>
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.

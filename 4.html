@@ -6,17 +6,21 @@
             background-color: grey;
         }
         body{
-            position: static;
+            margin: 0 auto;
             width: 50%;
             background-color: grey;
         }
         h1{
             background-color: grey;
-            height: 50px;
             /*  width: 200px; 사이즈가 줄은 것 같이 보여도 한 블록을 차지하는건 이전과 동일하다. */
             margin: 0px;
-            padding: 0px;
+            padding: 5px; 
             /* 바디에 마진이 존재한다. */
+        }
+        ol{
+            margin: 3px;
+            border-top: 3px solid black;
+            border-bottom: 3px solid black;
         }
         p{
             background-color: grey;
@@ -44,12 +48,12 @@
     <meta charset="utf-8">
 </head>
 <body>
-    <div style="position: relative; left:40%;">
+    <div>
         <h1 style="font-size: 65px;"><a href="index.html">Developer</a></h1>
     </div>
     
-    <div style="position: relative; left:40%;">
-        <ol>
+    <div>
+        <ol style="color:lightgoldenrodyellow;">
             <li><a href="1.html">BaekJoon Series</a></li>
             <li><a href="2.html">Java Study</a></li>
             <li><a href="3.html">Web Making</a></li>
@@ -57,23 +61,23 @@
         </ol>
     </div>
     
-    <div style="position: relative; left:50%;">
+    <div style="color:lightgoldenrodyellow;">
         <h2><a href="https://www.instagram.com/develop_my_life__/" target="_blank" title="Instagram of SSUPHB" style="color:yellow;text-decoration: underline;">SSUPHB</a>, Who is he?</h2>
     </div>
     
-    <div style="position: relative; left:50%; color:lightgoldenrodyellow;">
+    <div style="color:lightgoldenrodyellow; font-size: large;">
         <p>
             괴팍하고 이상하지만 그런 SSUPHB가 궁금하시다면 이곳에서 해결하세요.
-            이 사람은 무료로 알려줍니다.
+            이 사람은 나름 재밌답니다.
         </p>
     </div>
     
-    <div style="position: relative; left:50%;">
+    <div>
         <img src="back-end.jpg" width = 100%>
     </div>
     
     <p>
-        <div style="position: relative; left:50%;" id="disqus_thread"></div>
+        <div id="disqus_thread"></div>
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.

@@ -6,17 +6,21 @@
             background-color: grey;
         }
         body{
-            position: static;
+            margin: 0 auto;
             width: 50%;
             background-color: grey;
         }
         h1{
             background-color: grey;
-            height: 50px;
             /*  width: 200px; 사이즈가 줄은 것 같이 보여도 한 블록을 차지하는건 이전과 동일하다. */
             margin: 0px;
-            padding: 0px;
+            padding: 5px; 
             /* 바디에 마진이 존재한다. */
+        }
+        ol{
+            margin: 3px;
+            border-top: 3px solid black;
+            border-bottom: 3px solid black;
         }
         p{
             background-color: grey;
@@ -43,12 +47,13 @@
     <title>Become a Developer</title>
     <meta charset="utf-8">
 </head>
+
 <body>
-    <div style="position: relative; left:40%;">
+    <div>
         <h1 style="font-size: 65px;"><a href="index.html">Developer</a></h1>
     </div>
 
-    <div style="position: relative; left:40%;">
+    <div>
         <ol style="color:lightgoldenrodyellow;">
             <li style="color:yellow;"><a href="1.html" style="color:yellow;text-decoration: underline;" >BaekJoon Series</a></li>
             <li><a href="2.html">Java Study</a></li>
@@ -57,11 +62,11 @@
         </ol>
     </div>
     
-    <div style="position: relative; left:50%;">
+    <div>
         <h2><a href="https://www.acmicpc.net/" target="_blank" title="BaekJoon Site" style="color:yellow;text-decoration: underline;">BaekJoon Series</a></h2>
     </div>
 
-    <div style="position: relative; left:50%; color:lightgoldenrodyellow;">
+    <div style="color:lightgoldenrodyellow; font-size: large;" >
         <p>
             이곳에는 지금까지 풀었던 백준 시리즈와 앞으로 풀어나갈 예정인 백준 시리즈를 올릴 예정입니다. 보기에 이상한 코드들은 가감없이 조언해주시고, 
             "굳이 저렇게 풀어?"라는 생각이 들 정도로 풀이 방식이 이상하면 더 좋은 길을 조언해주시면 감사하겠습니다.
@@ -72,11 +77,11 @@
         
     </P>
 
-    <p style="position: relative; left:50%;"><img src="code img.jpg" width = 100%></p>
+    <p><img src="code img.jpg" width = 100%></p>
 
 
     <p>
-        <div style="position: relative; left:50%;" id="disqus_thread"></div>
+        <div id="disqus_thread"></div>
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.

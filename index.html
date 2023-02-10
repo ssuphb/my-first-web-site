@@ -6,17 +6,21 @@
             background-color: grey;
         }
         body{
-            position: static;
+            margin: 0 auto;
             width: 50%;
             background-color: grey;
         }
         h1{
             background-color: grey;
-            height: 50px;
             /*  width: 200px; 사이즈가 줄은 것 같이 보여도 한 블록을 차지하는건 이전과 동일하다. */
             margin: 0px;
-            padding: 0px;
+            padding: 5px; 
             /* 바디에 마진이 존재한다. */
+        }
+        ol{
+            margin: 3px;
+            border-top: 3px solid black;
+            border-bottom: 3px solid black;
         }
         p{
             background-color: grey;
@@ -44,11 +48,11 @@
     <meta charset="utf-8">
 </head>
 <body>
-    <div style="position: relative; left:40%;">
+    <div>
         <h1 style="font-size: 65px;"><a href="index.html">Developer</a></h1>
     </div>
     
-    <div style="position: relative; left:40%;">
+    <div>
         <ol>
             <li><a href="1.html">BaekJoon Series</a></li>
             <li><a href="2.html">Java Study</a></li>
@@ -57,14 +61,14 @@
         </ol>
     </div>
     
-    <div style="position: relative; left:50%; color:lightgoldenrodyellow;">
+    <div style="color:lightgoldenrodyellow; font-size: large;" >
         <p>Hewllo World!</p>
         <p>반갑습니다. 이 페이지는 SSUPHB가 개발자가 되기 위해 공부하는 내용들을 정리하는 곳입니다.</p>
         <p>지금은 아무것도 없지만 살을 붙여나갈 예정입니다. 우선 뼈대를 만들고 그 뒤에 내용을 추가하려고 합니다. 건물도 그렇잖아요?</p>
     </div>
 
     <p>
-        <div style="position: relative; left:50%;" id="disqus_thread"></div>
+        <div id="disqus_thread"></div>
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
