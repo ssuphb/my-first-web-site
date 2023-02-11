@@ -1,40 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        div{
-            background-color: grey;
-        }
-        body{
-            margin: 0 auto;
-            width: 50%;
-            background-color: grey;
-        }
-        h1{
-            background-color: grey;
-            /*  width: 200px; 사이즈가 줄은 것 같이 보여도 한 블록을 차지하는건 이전과 동일하다. */
-            margin: 0px;
-            padding: 5px; 
-            /* 바디에 마진이 존재한다. */
-        }
-        ol{
-            margin: 3px;
-            border-top: 3px solid black;
-            border-bottom: 3px solid black;
-        }
-        p{
-            background-color: grey;
-            border-color: grey;
-            border-width: 10px; /* 개발자도구의 border과 동일하다. 마진은 위랑 아래랑 그 갭 */
-            border-style: solid;
-            margin: 0px;
-        }
-        a {
-            color:lightgoldenrodyellow;
-            text-decoration: none;
-            background-color: grey;
-        }
-    </style>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZ7FDTYT3H"></script>
 <script>
@@ -46,27 +12,28 @@
 </script>
     <title>Become a Developer</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        <h1 style="font-size: 65px;"><a href="index.html">Developer</a></h1>
+    <div class="topname">
+        <h1><a href="index.html">Developer</a></h1>
     </div>
 
     <div>
-        <ol style="color:lightgoldenrodyellow;">
+        <ol>
             <li><a href="1.html">BaekJoon Series</a></li>
-            <li style="color:yellow;"><a href="2.html"  style="color:yellow;text-decoration: underline;" >Java Study</a></li>
+            <li class="thispage"><a href="2.html" class="thispage">Java Study</a></li>
             <li><a href="3.html">Web Making</a></li>
             <li><a href="4.html">SSUPHB</a></li>
         </ol>
     </div>
     
     <div>
-        <h2><a href="https://namu.wiki/w/Java" target="_blank" title="Java from namuwiki" style="color:yellow;text-decoration: underline;" >Java Study</a></h2>
+        <h2><a href="https://namu.wiki/w/Java" target="_blank" title="Java from namuwiki" class="thispage">Java Study</a></h2>
     </div>
 
-    <div style="color:lightgoldenrodyellow; font-size: large;">
+    <div class="bodytext">
         <p>
             이곳은 앞으로 배울 Java에 관련된 내용을 올릴 예정입니다. 기본적인 이론부터 공부를 하면서 느낀 제 생각까지 올릴 것이니. 내용이 불편하시거나 공부 방향이 이상하다고
             생각되시면 가감없이 조언해주시면 감사하겠습니다.

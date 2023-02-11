@@ -1,40 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        div{
-            background-color: grey;
-        }
-        body{
-            margin: 0 auto;
-            width: 50%;
-            background-color: grey;
-        }
-        h1{
-            background-color: grey;
-            /*  width: 200px; 사이즈가 줄은 것 같이 보여도 한 블록을 차지하는건 이전과 동일하다. */
-            margin: 0px;
-            padding: 5px; 
-            /* 바디에 마진이 존재한다. */
-        }
-        ol{
-            margin: 3px;
-            border-top: 3px solid black;
-            border-bottom: 3px solid black;
-        }
-        p{
-            background-color: grey;
-            border-color: grey;
-            border-width: 10px; /* 개발자도구의 border과 동일하다. 마진은 위랑 아래랑 그 갭 */
-            border-style: solid;
-            margin: 0px;
-        }
-        a {
-            color:lightgoldenrodyellow;
-            text-decoration: none;
-            background-color: grey;
-        }
-    </style>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZ7FDTYT3H"></script>
 <script>
@@ -46,10 +12,11 @@
 </script>
     <title>Become a Developer</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1 style="font-size: 65px;"><a href="index.html">Developer</a></h1>
+    <div class="topname">
+        <h1><a href="index.html">Developer</a></h1>
     </div>
     
     <div>
@@ -61,7 +28,7 @@
         </ol>
     </div>
     
-    <div style="color:lightgoldenrodyellow; font-size: large;" >
+    <div class="bodytext">
         <p>Hewllo World!</p>
         <p>반갑습니다. 이 페이지는 SSUPHB가 개발자가 되기 위해 공부하는 내용들을 정리하는 곳입니다.</p>
         <p>지금은 아무것도 없지만 살을 붙여나갈 예정입니다. 우선 뼈대를 만들고 그 뒤에 내용을 추가하려고 합니다. 건물도 그렇잖아요?</p>

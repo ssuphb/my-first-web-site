@@ -1,40 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        div{
-            background-color: grey;
-        }
-        body{
-            margin: 0 auto;
-            width: 50%;
-            background-color: grey;
-        }
-        h1{
-            background-color: grey;
-            /*  width: 200px; 사이즈가 줄은 것 같이 보여도 한 블록을 차지하는건 이전과 동일하다. */
-            margin: 0px;
-            padding: 5px; 
-            /* 바디에 마진이 존재한다. */
-        }
-        ol{
-            margin: 3px;
-            border-top: 3px solid black;
-            border-bottom: 3px solid black;
-        }
-        p{
-            background-color: grey;
-            border-color: grey;
-            border-width: 10px; /* 개발자도구의 border과 동일하다. 마진은 위랑 아래랑 그 갭 */
-            border-style: solid;
-            margin: 0px;
-        }
-        a {
-            color:lightgoldenrodyellow;
-            text-decoration: none;
-            background-color: grey;
-        }
-    </style>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZ7FDTYT3H"></script>
 <script>
@@ -46,26 +12,27 @@
 </script>
     <title>Become a Developer</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1 style="font-size: 65px;"><a href="index.html">Developer</a></h1>
+    <div class="topname">
+        <h1><a href="index.html">Developer</a></h1>
     </div>
 
     <div>
-        <ol style="color:lightgoldenrodyellow;">
+        <ol>
             <li><a href="1.html">BaekJoon Series</a></li>
             <li><a href="2.html">Java Study</a></li>
-            <li style="color:yellow;"><a href="3.html" style="color:yellow;text-decoration: underline;">Web Making</a></li>
+            <li class="thispage"><a href="3.html" class="thispage">Web Making</a></li>
             <li><a href="4.html">SSUPHB</a></li>
         </ol>
     </div>
     
     <div>
-        <h2><a href="https://ko.wikipedia.org/wiki/%EC%9B%94%EB%93%9C_%EC%99%80%EC%9D%B4%EB%93%9C_%EC%9B%B9" target="_blank" title="Web from wikipedia" style="color:yellow;text-decoration: underline;">Web Making</a></h2>
+        <h2><a href="https://ko.wikipedia.org/wiki/%EC%9B%94%EB%93%9C_%EC%99%80%EC%9D%B4%EB%93%9C_%EC%9B%B9" target="_blank" title="Web from wikipedia" class="thispage">Web Making</a></h2>
     </div>
     
-    <div style="color:lightgoldenrodyellow; font-size: large;">
+    <div class="bodytext">
         <p>
             이곳은 이 웹을 만들면서 공부한 내용들과 제가 공부하면서 "이런식으로 만들면 더 좋겠다."라는 생각이 들 때 그 방향을 제시하는 곳으로 사용할 예정입니다.
             매우 좋은 Youtube선생님들이 계시지만 제가 공부한 내용들을 더 쉬운 말로 풀어서 설명하면 저의 지식이 되는 시간이 짧아지리라 생각하여 그렇게 해보려고 합니다.

@@ -1,0 +1,44 @@
+div{
+    background-color: grey;
+}
+body{
+    margin: 0 auto;
+    width: 50%;
+    background-color: grey;
+}
+h1{
+    background-color: grey;
+    /*  width: 200px; 사이즈가 줄은 것 같이 보여도 한 블록을 차지하는건 이전과 동일하다. */
+    margin: 0px;
+    padding: 5px; 
+    /* 바디에 마진이 존재한다. */
+}
+ol{
+    margin: 3px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    color: lightgoldenrodyellow
+}
+.topname{
+    font-size: 33px;
+}
+.thispage{
+    color: yellow;
+    text-decoration: underline;
+}
+.bodytext{
+    color: lightgoldenrodyellow;
+    font-size: large;
+}
+p{
+    background-color: grey;
+    border-color: grey;
+    border-width: 10px; /* 개발자도구의 border과 동일하다. 마진은 위랑 아래랑 그 갭 */
+    border-style: solid;
+    margin: 0px;
+}
+a {
+    color:lightgoldenrodyellow;
+    text-decoration: none;
+    background-color: grey;
+}
